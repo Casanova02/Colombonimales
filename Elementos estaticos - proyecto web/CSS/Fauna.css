@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #F5EFD7;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    background-color: #D3790D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    border: black 3px solid;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+
+header ul li a{
+    transition: all 0.3 ease 0s;
+}
+
+header ul li a:hover{
+    color: #F3BF33;
+    transition: all 0.3 ease 0s;
+}
+
+button{
+    padding: 5px 15px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.titulo{
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(./Fondo_index/fondo_de_selva_tropical_horizontal_vectorial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo .Biocolombia{
+    border-radius: 40%;
+}
+
+table{
+    margin: 0 auto;
+    text-align: center;
+    border: brown solid 3px;
+    margin-bottom: 30px;
+}
+
+
+.Presentacion{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.Presentacion .Presentacion-texto{
+    text-align: center;
+}
+
+.Presentacion .Presentacion-texto h2{
+    margin-right: 160px;
+    margin-left: 160px;
+    color: aliceblue;
+    background-color: #D3790D;
+    border: black 2px solid;
+}
+
+.Presentacion .Presentacion-texto p{
+    margin-right: 160px;
+    margin-left: 160px;
+    background-color: aliceblue;
+    border: black 2px solid;
+
+}
+
+.animales{
+    text-align: center;
+}
+
+.animales img{
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    margin: 10px 40px;
+}
+

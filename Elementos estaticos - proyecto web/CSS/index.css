@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #F5EFD7;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    background-color: #D3790D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    border: black 3px solid;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+
+header ul li a{
+    padding: 8px;
+    background-color:  #F5EFD7;
+    transition: all 0.3 ease 0s;
+    border-radius: 50px;
+}
+
+header ul li a:hover{
+    color: #F3BF33;
+    transition: all 0.3 ease 0s;
+}
+
+button{
+    padding: 5px 15px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.titulo{
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(./Fondo_index/fondo_de_selva_tropical_horizontal_vectorial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo .Biocolombia{
+    border-radius: 40%;
+}
+
+.cuerpo{
+    margin-left: 15px;
+}
+
+.elementosMensaje{
+    display: inline;
+}
+
+.elementosMensaje img{
+    width: 90px;
+    height: auto;
+}
+
+.colibriInv{
+    transform: scaleX(-1);
+}
+
+
+.TextoBienvenida{
+    text-align: center;
+    margin: 80px;
+    background-color: #F3BF33;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: brown solid 3px;
+    opacity: 0.8;
+}
+
+
+.TextoBienvenida p{
+    margin: 30px;
+
+}
+
+table{
+    border:brown solid 3px;
+    border-collapse: separate;
+    margin:15px;
+    padding:10px;
+}
+
+
+tr{
+    margin:15px;
+    padding:15px;
+}
+
+.cuerpoTabla td{
+    border: brown solid 3px;
+}
+
+.Fauna table tr td img, .Flora table tr td img{
+    width: 400px;
+    height: auto;
+}
+
+table tr td .textoTabla{
+    margin: 5px;
+}
+
+.pie-pagina{
+    background-color: #D3790D;
+    width: 100%;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 50px
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width:150px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    background-color: #F5EFD7;
+    border-radius: 50px;
+    text-align: center;
+    transition:all 300ms ease
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #F3BF33
+}
+
+.pie-pagina .grupo-2{
+    background-color: #F3BF33;
+    padding: 15px 10px;
+    text-align: center;
+    color:black;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 50px
+    }
+}
